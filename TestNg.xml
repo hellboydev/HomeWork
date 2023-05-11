@@ -9,7 +9,6 @@
 		<!--  <class name="Demo_TestNg.TestCase2" />
 		<class name="Demo_TestNg.TestCase1" /> -->
 		<class name="Demo_TestNg.SwitchWindows"></class>
-		<class name="Demo_TestNg.Testing_DataProvider"></class> 
 			<class name="Demo_TestNg.AlertsandIframe"></class>
         <class name="Demo_TestNg.Demo_Btes"></class>
         <class name="Demo_TestNg.SeleniumMainWindowsSwitch"></class>	
