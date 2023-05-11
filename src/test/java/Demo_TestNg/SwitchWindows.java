@@ -6,14 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
 
 public class SwitchWindows
 {
-	public static String parentWindowId;
-	public static void main(String[]args) throws InterruptedException
-	{
-
 	
+	public static String parentWindowId;
+	@Test
+	public void window() throws InterruptedException{
 	ChromeOptions options=new ChromeOptions();
     options.addArguments("--remote-allow-origins=*");
     options.addArguments("disable-infobars");
@@ -45,6 +45,7 @@ public class SwitchWindows
 		//driver.quit();
 	
 }
+}
    
 	/*
 	 * Set<String> handles=driver.getWindowHandles();//parentclass and child
@@ -58,5 +59,5 @@ public class SwitchWindows
 	 * System.out.println("Parent id:"+parentid);
 	 * 
 	 */
-}
+
 	
